@@ -11,7 +11,6 @@
 (function() {
     'use strict';
 
-    alert("waitamin");
     let visitStartTime = Date.now();
     let visitEndTime = null;
 
@@ -29,7 +28,6 @@
         };
 
         localStorage.setItem('visitData', JSON.stringify(visitData));
-        alert("visitData");
     }
 
     document.addEventListener('visibilitychange', () => {
